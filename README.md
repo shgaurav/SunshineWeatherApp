@@ -7,8 +7,9 @@ Sunshine Weather App(v1.0)
 Coming soon in v1.1
 - Add a setting menu for the user customize the app
 - Ability to change list colour and weather condition icons based on user selection
-- Fix the issue pertaining to the recyclerview refreshing everytime the app is closed
+- Fix the issue pertaining to the recyclerview refreshing everytime the app is closed - Issue#1
 - Add more screens for detailed weather info such as 16 day forecast, maps etc.
+- Use Current weather API for the live weather updated based on users location rather than 5 day forecast AP - Issue#2
 
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/19783321/25731398/0379bd2e-3114-11e7-8272-f96d0b7b88dc.png" width="300"/>
