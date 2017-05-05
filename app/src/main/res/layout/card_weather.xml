@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    app:cardBackgroundColor="#ECECEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/lweather_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/sunny" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/lweather_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Tommorrow"
+                android:textColor="#595959"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/lweather_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clear"
+                android:textColor="#595959"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/lweather_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raining heavily"
+                android:textColor="#595959"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/lwind_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23 m/hr"
+                android:textColor="#595959"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/lhumidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99"
+                android:textColor="#595959"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/lmax_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="78°"
+                android:textColor="#595959"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lmin_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="64°"
+                android:textColor="#595959"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
