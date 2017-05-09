@@ -1,10 +1,11 @@
 # SunshineWeatherApp
-Sunshine Weather App(v1.0)
+Sunshine Weather App(v1.1)
 - Allow users to be able to view current weather using their location.
 - Allow users to get 5 day forecasts
 - Allow users to get detailed 5 day forecast with humidity, weather condition discriptors and wind speed.
+- Updated issue pertaining to cloud icon not displaying properly. Re-did the image size for clouds_mini .png file.
 
-Coming soon in v1.1
+Coming soon in v1.2
 - Add a setting menu for the user customize the app
 - Ability to change list colour and weather condition icons based on user selection
 - Fix the issue pertaining to the recyclerview refreshing everytime the app is closed - Issue#1
